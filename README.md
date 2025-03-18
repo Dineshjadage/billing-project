@@ -1,70 +1,55 @@
-Retail Billing System
+# Retail Billing System
 
 This repository contains a Python-based Retail Billing System using Tkinter for GUI and SMTP for email functionality.
 
-Prerequisites
+## Prerequisites
 
-Python 3.x installed
+- Python 3.x installed
+- Tkinter (included with Python standard library)
+- SMTP configured for email sending (Gmail recommended)
 
-Tkinter (included with Python standard library)
+## Installation
 
-SMTP configured for email sending (Gmail recommended)
+### 1. Download and Install Python
 
-Installation
+- Download Python from the official website: [https://www.python.org/downloads/](https://www.python.org/downloads/)
+- Install Python by following the on-screen instructions.
+- Ensure that `Add Python to PATH` is selected during installation.
 
-1. Download and Install Python
+### 2. Open `p1.py` in Python IDLE
 
-Download Python from the official website: https://www.python.org/downloads/
+- Open Python IDLE (Python's Integrated Development and Learning Environment).
+- Click `File` > `Open` and select `p1.py` from the downloaded repository.
 
-Install Python by following the on-screen instructions.
+### 3. Run the Script
 
-Ensure that Add Python to PATH is selected during installation.
+- Press `F5` or click `Run` > `Run Module` to execute the program.
 
-2. Open p1.py in Python IDLE
+### 4. login:-
+- Admin :- admin
+- Password:-password
 
-Open Python IDLE (Python's Integrated Development and Learning Environment).
+## Features
 
-Click File > Open and select p1.py from the downloaded repository.
+- **Login System**: Secure authentication for accessing the billing system.
+- **Product Billing**: Calculate total prices and apply taxes.
+- **Bill Printing**: Print receipts directly.
+- **Email Functionality**: Send bills via email.
+- **GUI Interface**: User-friendly interface using Tkinter.
 
-3. Run the Script
+## Usage
 
-Press F5 or click Run > Run Module to execute the program.
+- Enter the login credentials (Default: `admin/password`).
+- Add products and their quantities.
+- Click `Total` to calculate the bill.
+- Click `Bill` to generate the receipt.
+- Use `Print` to print or `Email` to send the receipt.
 
-4. LOGIN INFO:-
-
-Admin :- admin
-
-Password:-password
-
-Features
-
-Login System: Secure authentication for accessing the billing system.
-
-Product Billing: Calculate total prices and apply taxes.
-
-Bill Printing: Print receipts directly.
-
-Email Functionality: Send bills via email.
-
-GUI Interface: User-friendly interface using Tkinter.
-
-Usage
-
-Enter the login credentials (Default: admin/password).
-
-Add products and their quantities.
-
-Click Total to calculate the bill.
-
-Click Bill to generate the receipt.
-
-Use Print to print or Email to send the receipt.
-
-License
+## License
 
 This project is licensed under the MIT License.
 
-Author
+## Author
 
 Developed by [Dinesh jadage]
 
